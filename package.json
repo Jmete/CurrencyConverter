@@ -1,0 +1,12 @@
+{
+  "name": "Currency-Converter",
+  "version": "0.0.1",
+  "description": "Currency Converter App",
+  "dependencies": {
+    "country-tz-currency": "^1.0.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "money": "^0.2.0",
+    "open-exchange-rates": "^0.3.0"
+  }
+}

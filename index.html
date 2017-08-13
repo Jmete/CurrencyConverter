@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Currency Converter</title>
+        <meta name="description" content="Currency Convert by James Mete">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+  </head>
+  <body>
+
+    <h1>Currency Converter</h1>
+    <input id="num" type="number" placeholder="Enter Value"></br>
+    <select id="from">
+        <option value="" disabled selected>FROM</option>
+
+    </select>
+    <button id="switchBut" onclick="switchSelects()"> <=> </button>
+    <select id="to">
+        <option value="" disabled selected>TO</option>
+    </select>
+
+    <div id="ansbox">
+        <p>Result</p>
+        <hr>
+        <h3 id="result"></h3>
+    </div>
+
+    <button onclick="letsConvert()">CONVERT</button>
+
+
+    <a href="http://www.jamesmete.com">&copy; James Mete 2017</a>
+
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+
+
+
+  </body>
+</html>

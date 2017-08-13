@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size:3em;
+    padding:20px;
+    border:1px solid #ff1133;
+    text-align:center;
+    background: #ff1133;
+    color:white;
+    border-radius:10px;
+    max-width:500px;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:40px;
+}
+
+input{
+    width:300px;
+    padding-top:20px;
+    padding-bottom:20px;
+    display:block;
+    border:1px solid #000;
+    margin:0 auto;
+    text-align:center;
+    font-size:1.4em;
+}
+
+select{
+    width:100%;
+    max-width:500px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align:center;
+    border:1px solid #000;
+    background:#fff;
+    text-align-last:center;
+    font-size:1.4em;
+    display:block;
+    margin:0 auto;
+    cursor:pointer;
+}
+
+#ansbox{
+    margin-bottom:10px;
+}
+
+#ansbox p{
+    font-size:1.2em;
+}
+
+#ansbox hr{
+    max-width:500px;
+}
+
+#ansbox h3{
+    font-size:1.4em;
+    width:300px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align:center;
+    border:1px solid black;
+    margin:0 auto;
+}
+
+
+
+button{
+    width:300px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border:1px solid #ff1133;
+    text-align:center;
+    background: #ff1133;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#e90021;
+}
+
+#switchBut{
+    max-width:100px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background:white;
+    color:#ff1133;
+}
+
+#switchBut:hover{
+    color:white;
+    background:#ff1133;
+}
+
+a {
+    text-decoration: none;
+    display:block;
+    margin-top:20px;
+    text-align:center;
+    width:100%;
+    font-size:1.2em;
+    color:grey;
+}
+
